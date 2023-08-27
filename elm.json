@@ -1,0 +1,15 @@
+{
+    "type": "package",
+    "name": "arowM/elm-sequence-id",
+    "summary": "Pure, conflict-free, JSON-friendly, arbitrary size, sequential ID string.",
+    "license": "MIT",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "SequenceId"
+    ],
+    "elm-version": "0.19.1 <= v < 0.20.0",
+    "dependencies": {
+        "elm/core": "1.0.2 <= v < 2.0.0"
+    },
+    "test-dependencies": {}
+}
