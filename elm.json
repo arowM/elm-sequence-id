@@ -3,7 +3,7 @@
     "name": "arowM/elm-sequence-id",
     "summary": "Pure, conflict-free, JSON-friendly, arbitrary size, sequential ID string.",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "SequenceId"
     ],
