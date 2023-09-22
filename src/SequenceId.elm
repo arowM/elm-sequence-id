@@ -17,12 +17,12 @@ module SequenceId exposing
 
 zero : Int
 zero =
-    0x20
+    0x21
 
 
 one : Int
 one =
-    0x21
+    0x22
 
 
 maxBound : Int
@@ -30,7 +30,7 @@ maxBound =
     0xD7FF
 
 
-{-| Base 55264 representation of a sequential number.
+{-| Base 55263 representation of a sequential number.
 -}
 type SequenceId
     = SequenceId String
@@ -40,7 +40,7 @@ type SequenceId
 -- reversed
 
 
-{-| Convert `SequenceId` to a base 55264 represented string.
+{-| Convert `SequenceId` to a base 55263 represented string.
 -}
 toString : SequenceId -> String
 toString (SequenceId str) =

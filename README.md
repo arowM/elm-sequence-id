@@ -81,4 +81,4 @@ Several people have published Elm libraries that deal with numbers in arbitrary 
 Using these as sequences is not a bad idea, but they do not provide an efficient way to pass the values to JS. The simplest way would be to convert the number to a string in decimal notation. This would allow JS to compare the two IDs to make sure they are the same, but would require the string to be as large as the number of digits.
 Hexadecimal notation would be more efficient, but there is still room for improvement.
 
-The main reason for adopting SequenceId is to make this string representation more efficient. Since JS (and Elm) strings are UTF-16 encoded, characters in the code point range U+0020 to U+D7FF are relatively safe to include; SequenceId can use these characters to generate strings in, say, base 55264 number representation.
+The main reason for adopting SequenceId is to make this string representation more efficient. Since JS (and Elm) strings are UTF-16 encoded, characters in the code point range U+0021 to U+D7FF are relatively safe to include; SequenceId can use these characters to generate strings in, say, base 55263 number representation.
